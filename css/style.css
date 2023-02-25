@@ -158,14 +158,17 @@ html {
 .nav-list,
 .top-contact-list {
     display: flex;
-    gap: 50px; ;
-}
-.nav-list {
-    margin-left: 90px;
+    gap: 50px;
+    margin: 0 0 0 auto ;
 }
 
-.top-contact-list {
-    margin: 0 0 0 auto;
+.top-contact-sublist {
+    display: flex;
+    gap: 10px; 
+}
+
+.nav-list {
+    margin-left: 90px;
 }
 
 .link-nav {
@@ -177,16 +180,28 @@ html {
     text-decoration: none;
 }
 
-.link:hover,
-.link:focus,
 .link-nav:hover,
-.link-nav:focus,
-.contact-method:hover,
-.contact-method:focus {
+.link-nav:focus {
     color: #2196F3;
     padding-bottom: 28px;
     border-bottom: solid #2196F3;
     border-radius: 2px;
+}
+
+.top-contact-list-item a:hover,
+.top-contact-list-item:focus {
+    color: #2196F3;
+}
+
+.top-contact-list-item svg {
+    fill: currentColor;
+}
+
+.top-contact-list-item a {
+    color:#757575;
+    display: flex;
+    gap: 10px;
+    align-items: end;
 }
 
 /*ProjectSection*/
