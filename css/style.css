@@ -183,9 +183,9 @@ html {
 .link-nav:hover,
 .link-nav:focus {
     color: #2196F3;
-    padding-bottom: 28px;
+    /*padding-bottom: 28px;
     border-bottom: solid #2196F3;
-    border-radius: 2px;
+    border-radius: 2px;*/
 }
 
 .top-contact-list-item a:hover,
